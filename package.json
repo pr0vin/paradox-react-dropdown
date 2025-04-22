@@ -1,0 +1,16 @@
+{
+  "name": "paradox-react-dropdown",
+  "version": "1.0.0",
+  "main": "index.js",
+  "peerDependencies": {
+    "react": "^17.0.0 || ^18.0.0",
+    "react-dom": "^17.0.0 || ^18.0.0"
+  },
+  "keywords": [
+    "react",
+    "dropdown",
+    "select",
+    "search"
+  ],
+  "license": "MIT"
+}
