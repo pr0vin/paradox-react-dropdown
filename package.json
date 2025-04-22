@@ -1,16 +1,39 @@
 {
   "name": "paradox-react-dropdown",
   "version": "1.0.0",
+  "description": "A customizable searchable dropdown component for React",
   "main": "index.js",
-  "peerDependencies": {
-    "react": "^17.0.0 || ^18.0.0",
-    "react-dom": "^17.0.0 || ^18.0.0"
+  "module": "index.js",
+  "types": "index.d.ts",
+  "files": [
+    "index.js",
+    "src"
+  ],
+  "scripts": {
+    "build": "babel src --out-dir dist --extensions \".js,.jsx\"",
+    "prepare": "npm run build"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/paradox-react-dropdown.git"
+  },
+  "author": "Paradox <pravinchaudhary688@gmail.com>",
+  "license": "MIT",
   "keywords": [
     "react",
     "dropdown",
     "select",
-    "search"
+    "search",
+    "react-component",
+    "searchable-dropdown"
   ],
-  "license": "MIT"
+  "peerDependencies": {
+    "react": "^17.0.0 || ^18.0.0",
+    "react-dom": "^17.0.0 || ^18.0.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.23.0",
+    "@babel/core": "^7.23.0",
+    "@babel/preset-react": "^7.23.0"
+  }
 }
