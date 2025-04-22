@@ -21,7 +21,7 @@ A customizable, searchable dropdown (select) component for React. Perfect for se
 ```bash
 npm install paradox-react-dropdown
 
-##Usage
+###Usage
 import React, { useState } from "react";
 import SelectSearch from "paradox-react-dropdown";
 
