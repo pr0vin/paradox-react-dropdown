@@ -50,11 +50,3 @@ const App = () => {
 
 export default App;
 
-## Props Reference
-Prop | Type | Required | Default | Description
-options | Array<Object> | ✅ | — | List of options to display. Each item must contain a unique id.
-value | string / number | ✅ | — | The currently selected id.
-onChange | (id) => void | ✅ | — | Callback when an option is selected. Returns the selected id.
-placeholder | string | ❌ | "Select an option" | Placeholder text when no option is selected.
-searchFields | string[] | ❌ | [] | Fields to be searched when typing into the search box.
-displayFields | string[] | ❌ | ["title"] | Fields to display in dropdown and selected option, joined by " - ".
